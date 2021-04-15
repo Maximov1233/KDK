@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
 </head>
 
 <body>
@@ -58,6 +59,9 @@
                 </ul>
             </div>
         </div>
+        <div class="header-hamburger">
+            <span></span>
+        </div>
         <div class="header-right">
             <div class="header-right__info">
                 <div class="adress">
@@ -100,25 +104,72 @@
                         <li>Строительство коттеджных поселков</li>
                     </ul>
                 </div>
-                <div class="cost">
-                    <button class="button cost-button">
-                        Рассчитать стоимость
-                        <span><img src="./img/cost.png" alt="cost"></span>
-                    </button>
-                    <a href="#">Смотреть тарифные планы</a>
+                <div class="price">
+                    <div class="cost">
+                        <button class="button cost-button">
+                            Рассчитать стоимость
+                            <span><img src="./img/cost.png" alt="cost"></span>
+                        </button>
+                        <a href="#">Смотреть тарифные планы</a>
+                    </div>
+                    <div class="attention">
+                        <p>за м<sup>2</sup></p>
+                        <p>от <span>250</span> р.</p>
+                        <p>Проектирование домов</p>
+                    </div>
                 </div>
                 <div class="scroll-down">
                     <img src="./img/scroll.png" alt="scroll-down">
                     <p>Листайте ниже</p>
                 </div>
-                <div class="attention">
-                    <p>за м<sup>2</sup></p>
-                    <p>от <span>250</span> р.</p>
-                    <p>Проектирование домов</p>
-                </div>
+                
+            </div>
+        </div>
+        <div class="header-sidemenu">
+            <div class="header-left__logo">
+                <a href="/">
+                    <img src="./img/logo.png" alt="KDK">
+                </a>
+            </div>
+            <div class="header-left__menu">
+                <ul>
+                    <li>О компании</li>
+                    <li>Услуги</li>
+                    <li>Проекты</li>
+                    <li>Условия</li>
+                    <li>Вопрос-ответ</li>
+                    <li>Блог</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+            <div class="header-left__contacts">
+                <ul>
+                    <a href="#" target="_blank">
+                        <li>
+                            <img src="./img/icons/1.png" alt="">
+                        </li>
+                    </a>
+                    <a href="#" target="_blank">
+                        <li>
+                            <img src="./img/icons/2.png" alt="">
+                        </li>
+                    </a>
+                    <a href="#" target="_blank">
+                        <li>
+                            <img src="./img/icons/3.png" alt="">
+                        </li>
+                    </a>
+                    <a href="#" target="_blank">
+                        <li>
+                            <img src="./img/icons/4.png" alt="">
+                        </li>
+                    </a>
+                </ul>
             </div>
         </div>
     </header>
+    <script src="./src/main.js"></script>
 </body>
 
 </html>
